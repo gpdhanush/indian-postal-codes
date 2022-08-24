@@ -53,11 +53,12 @@ import {IndianPostalCodesModule} from "indian-postal-codes";
 Add component to your page:
 
 ```typescript
-import {IndianPostalCodesService} from "indian-postal-codes";
+import {IndianPostalCodesService, PostOfficeDetails} from "indian-postal-codes";
 
 @Component({...})
 
 export class AppComponent {
+  result: PostOfficeDetails[];
   constructor(private postalCodesService: IndianPostalCodesService) {}
 }
 ```
