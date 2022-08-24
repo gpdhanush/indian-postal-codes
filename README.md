@@ -102,4 +102,4 @@ this.postalCodesService.findByPostOfficeName(postOffice).subscribe(data => {
 
 ### License
 
-indian-postal-codes is [MIT licensed](https://gitlab.com/gpdhanush/indian-postal-codes/-/blob/master/LICENSE).
+indian-postal-codes is [MIT licensed](https://github.com/gpdhanush/indian-postal-codes/blob/b2279d35d3a94899da310370652abdc0f3c793d6/LICENSE).
