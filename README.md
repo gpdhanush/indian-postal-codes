@@ -2,13 +2,12 @@
     <h1>indian-postal-codes</h1>
 </div>
 
-
-
 [![Downloads/week](https://img.shields.io/npm/dw/indian-postal-codes)](https://npmjs.org/package/indian-postal-codes)
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
 
 ## Table of contents
+
 1. [Getting Started](#getting-started)
 2. [Demo](#demo)
 3. [Installation](#installation)
@@ -17,22 +16,27 @@ This library was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Getting Started
 
-indian-postal-codes provides powered by Angular, so you don't need to include original JS components. 
+indian-postal-codes provides powered by Angular, so you don't need to include original JS components.
 
 ## Demo
 
 Indian Postal Codes components for Angular applications, demos and API documentation could be found here:
 [http://thaaimozhikalvi.com/demo/pincode](http://thaaimozhikalvi.com/demo/pincode).
 
+StackBlitz URL: [https://stackblitz.com/edit/angular-ivy-dvtntk?file=README.md](https://stackblitz.com/edit/angular-ivy-dvtntk?file=README.md)
+
 ## Installation
 
 Install `indian-postal-codes` from `npm`:
+
 ```bash
 npm install indian-postal-codes --save
 ```
 
 ## Usage
+
 Add wanted package to NgModule imports:
+
 ```typescript
 import {IndianPostalCodesModule} from "indian-postal-codes";
 
@@ -47,6 +51,7 @@ import {IndianPostalCodesModule} from "indian-postal-codes";
 ```
 
 Add component to your page:
+
 ```typescript
 import {IndianPostalCodesService} from "indian-postal-codes";
 
@@ -74,6 +79,7 @@ this.postalCodesService.findByPinCode(pinCode).subscribe(data => {
 ```
 
 Find By Post Office:
+
 ```typescript
 this.postalCodesService.findByPostOfficeName(postOffice).subscribe(data => {
       if (data[0].Status === 'Success') {
@@ -87,6 +93,7 @@ this.postalCodesService.findByPostOfficeName(postOffice).subscribe(data => {
       }
     });
 ```
+
 ## Creator
 
 #### [GP DHANUSH](mailto:agprakash406@gmail.com)
